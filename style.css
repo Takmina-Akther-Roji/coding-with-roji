@@ -1,0 +1,249 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*  starting of section 1 */
+.nav {
+    height: 100px;
+    width: 100%;
+    /* border:1px solid rgb(230, 17, 17); */
+    background: rgba(199, 174, 179, 0.5);
+    top: 0;
+    position: fixed;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo */
+.logo {
+    font-size: 30px;
+    display: flex;
+
+}
+
+.img img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.parts {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.part1 {
+    font-size: 40px;
+}
+
+.part2 {
+    font-size: 60px;
+    color: rgb(17, 17, 100);
+}
+
+.part3 {
+    font-size: 40px;
+}
+
+
+/* link */
+.links {
+    padding-top: 30px;
+}
+
+.links a {
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(36, 32, 28);
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgb(28, 8, 128);
+    text-decoration: underline;
+}
+
+/* <!-- ending of section 1 --> */
+
+
+/*    starting of section 2  */
+.background {
+    background: url("bg\ 2.webp")no-repeat center/cover;
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+ .background h1{
+    font-size: 50px;
+    color: blanchedalmond;
+    margin-left: 90px;
+    padding-top: 60px;
+ }
+
+ .background h2{
+    font-size: 50px;
+    color: rgb(34, 91, 145);
+    margin-left: 550px;
+    padding-top: 450px;
+ }
+  .background h1 span{
+    color: black;
+    font-size: 70px;
+ }
+ .background h2:hover{
+    color: aqua;
+ }
+/*  ending of section 2*/
+
+
+
+/*    starting of section 3  */
+.blog h1{
+    font-style: italic;
+    color:#5e5b5b;
+    margin-left: 50px;
+
+}
+.main-blog {
+    height: 400px;
+    width: auto;
+    /* border: 1px solid rgb(230, 17, 17); */
+    /* background-color: blue; */
+    margin-top: 30px;
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+.blog-box {
+    height: 350px;
+    width: 300px;
+    /* border: 1px solid rgb(230, 17, 17); */
+    /* background-color: black; */
+}
+
+.blog-box img {
+    height: 70%;
+    width: 100%;
+    border-radius: 0% 10% 0% 10%;
+}
+
+.blog-box h4 {
+    margin-left: 40px;
+    /* padding-top: -50px; */
+}
+
+/*    ending of section 3  */
+
+
+
+/*    starting of section 4  */
+.projects h1 {
+    margin-left: 1050px;
+    color: #5e5b5b;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.main-project {
+    height: 400px;
+    /* width: auto; */
+    /* border: 1px solid rgb(17, 230, 53); */
+    /* background-color: rgb(19, 188, 211); */
+    margin-top: 30px;
+    display: flex;
+    /* padding-left: 50px; */
+    padding-top: 25px;
+    justify-content: space-around
+}
+
+.project-box {
+    height: 350px;
+    width: 300px;
+    /* border: 1px solid rgb(22, 168, 100); */
+    /* background-color: rgb(87, 9, 9); */
+    border-radius: 10px;
+   
+}
+
+.project-box img {
+    height: 80%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.project-box h3 {
+    font-size: 40px;
+    color: rgb(7, 66, 66);
+    margin-left: 60px;
+    /* padding-top: -50px; */
+}
+
+/* .project-box a{ */
+    /* text-decoration: none; */
+/* } */
+/*    ending of section 4  */
+
+
+/*    starting of section5   */
+.footer{
+margin-top: 50px;
+margin-bottom:-20px;
+background-color: #dad0d0;
+border-radius: 20%  20% 0% 0%;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.authore-info p{
+    font-size: 20px;
+}
+
+.usefull-links p {
+    font-size: 20px;
+}
+.usefull-links p:hover{
+    text-decoration: underline;
+    color: #149acf;
+    
+}
+
+
+.icons img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+.icons{
+    margin-left: 600px;
+}
+/*    ending of section5   */
+
+
+/*    starting of section 6  */
+.footer-lastpart{
+    height: 50px;
+    background-color: #5e5b5b;
+    border-radius: 10 0px 10px 0;
+    color: blanchedalmond;
+  
+}
+.footer-lastpart p{
+    margin-left: 400px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family:initial;
+}
+/*    ending of section  6 */
